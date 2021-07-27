@@ -4,10 +4,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/operator/redisfailover/util"
-	"github.com/spotahome/redis-operator/service/k8s"
+	redisfailoverv1 "github.com/maolin-sen/redis-operator/api/redisfailover/v1"
+	"github.com/maolin-sen/redis-operator/log"
+	"github.com/maolin-sen/redis-operator/operator/redisfailover/util"
+	"github.com/maolin-sen/redis-operator/service/k8s"
 )
 
 // RedisFailoverClient has the minimumm methods that a Redis failover controller needs to satisfy

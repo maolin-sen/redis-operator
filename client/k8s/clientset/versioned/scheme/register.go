@@ -19,7 +19,7 @@ limitations under the License.
 package scheme
 
 import (
-	databasesv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	databasesv1 "github.com/maolin-sen/redis-operator/api/redisfailover/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

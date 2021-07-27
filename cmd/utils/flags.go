@@ -4,7 +4,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"github.com/spotahome/redis-operator/operator/redisfailover"
+	"github.com/maolin-sen/redis-operator/operator/redisfailover"
 	"k8s.io/client-go/util/homedir"
 )
 

@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	redisfailoverv1 "github.com/maolin-sen/redis-operator/api/redisfailover/v1"
 	mock "github.com/stretchr/testify/mock"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 

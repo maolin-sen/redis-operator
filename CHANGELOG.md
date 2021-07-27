@@ -303,7 +303,7 @@ example: `kubectl delete statefulset --cascade=false rfr-redisfailover`
 
 - Initial open-sourced release
 
-[v1.0.0]: https://github.com/spotahome/redis-operator/compare/0.5.8...v1.0.0
+[v1.0.0]: https://github.com/maolin-sen/redis-operator/compare/0.5.8...v1.0.0
 [v1.0.0-rc.5]: https://github.com/spotahome/redis-operator/compare/v1.0.0-rc.4...v1.0.0-rc.5
 [v1.0.0-rc.4]: https://github.com/spotahome/redis-operator/compare/v1.0.0-rc.3...v1.0.0-rc.4
 [v1.0.0-rc.3]: https://github.com/spotahome/redis-operator/compare/v1.0.0-rc.2...v1.0.0-rc.3

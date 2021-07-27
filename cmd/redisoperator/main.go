@@ -13,9 +13,9 @@ import (
 	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
 	"k8s.io/client-go/rest"
 
-	"github.com/spotahome/redis-operator/cmd/utils"
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/metrics"
+	"github.com/maolin-sen/redis-operator/cmd/utils"
+	"github.com/maolin-sen/redis-operator/log"
+	"github.com/maolin-sen/redis-operator/metrics"
 	"github.com/spotahome/redis-operator/operator/redisfailover"
 	"github.com/spotahome/redis-operator/service/k8s"
 	"github.com/spotahome/redis-operator/service/redis"
