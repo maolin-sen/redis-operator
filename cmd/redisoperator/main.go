@@ -16,9 +16,9 @@ import (
 	"github.com/maolin-sen/redis-operator/cmd/utils"
 	"github.com/maolin-sen/redis-operator/log"
 	"github.com/maolin-sen/redis-operator/metrics"
-	"github.com/spotahome/redis-operator/operator/redisfailover"
-	"github.com/spotahome/redis-operator/service/k8s"
-	"github.com/spotahome/redis-operator/service/redis"
+	"github.com/maolin-sen/redis-operator/operator/redisfailover"
+	"github.com/maolin-sen/redis-operator/service/k8s"
+	"github.com/maolin-sen/redis-operator/service/redis"
 )
 
 const (

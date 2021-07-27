@@ -6,9 +6,9 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/tools/cache"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/service/k8s"
+	redisfailoverv1 "github.com/maolin-sen/redis-operator/api/redisfailover/v1"
+	"github.com/maolin-sen/redis-operator/log"
+	"github.com/maolin-sen/redis-operator/service/k8s"
 )
 
 // redisfailoverCRD is the crd redis failover

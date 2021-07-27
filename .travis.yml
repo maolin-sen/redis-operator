@@ -15,7 +15,7 @@ env:
 language: go
 go:
   - "1.13.x"
-go_import_path: github.com/spotahome/redis-operator
+go_import_path: github.com/maolin-sen/redis-operator
 
 before_script:
   - curl -Lo minikube https://storage.googleapis.com/minikube/releases/v1.6.1/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/

@@ -15,8 +15,8 @@ import (
 
 	"text/template"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
-	"github.com/spotahome/redis-operator/operator/redisfailover/util"
+	redisfailoverv1 "github.com/maolin-sen/redis-operator/api/redisfailover/v1"
+	"github.com/maolin-sen/redis-operator/operator/redisfailover/util"
 )
 
 const (

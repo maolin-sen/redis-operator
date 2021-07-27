@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	redisfailoverv1 "github.com/maolin-sen/redis-operator/api/redisfailover/v1"
 )
 
 const (

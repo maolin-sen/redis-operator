@@ -42,7 +42,7 @@ DEV_DIR := docker/development
 APP_DIR := docker/app
 
 # workdir
-WORKDIR := /go/src/github.com/spotahome/redis-operator
+WORKDIR := /go/src/github.com/maolin-sen/redis-operator
 
 # The default action of this Makefile is to build the development docker image
 .PHONY: default
@@ -154,4 +154,4 @@ endif
 .PHONY: update-codegen
 update-codegen: docker-build
 	@echo ">> Generating code for Kubernetes CRD types..."
-	docker run --rm -v $(PWD):/go/src/github.com/spotahome/redis-operator/ $(REPOSITORY)-dev /bin/bash -c '$(UPDATE_CODEGEN_CMD)'
+	docker run --rm -v $(PWD):/go/src/github.com/maolin-sen/redis-operator/ $(REPOSITORY)-dev /bin/bash -c '$(UPDATE_CODEGEN_CMD)'
